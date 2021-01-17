@@ -1,0 +1,17 @@
+{
+  "name": "markdownify",
+  "version": "1.0.0",
+  "description": "Markdown editor SPA in ClojureScript and Reagent",
+  "main": "index.js",
+  "scripts": {
+    "dev": "shadow-cljs watch app",
+    "build": "shadow-cljs release --verbose app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ventrosky/markdownify.git"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.11.14"
+  }
+}
